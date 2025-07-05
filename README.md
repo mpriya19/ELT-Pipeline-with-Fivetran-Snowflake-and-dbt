@@ -7,7 +7,7 @@ Raw transactional data from Microsoft SQL Server is ingested into Snowflake usin
 As visible in the diagram below, I followed an ELT (Extract, Load, Transform) approach, whereby data is first extracted and directly loaded into Snowflake DWH prior to its transformation with dbt.
 
 <p align="center">
-  <img src="https://github.com/mpriya19/assets/Architecture Diagram.png">
+  <img src="https://github.com/mpriya19/ELT-Pipeline-with-Fivetran-Snowflake-and-dbt/main/assets/Architecture Diagram.png">
 </p>
 
 ## Medallion Architecture
@@ -19,7 +19,7 @@ Data is logically organized in three different stages:
   </p>
   
 - **Silver Layer**: This is where the data from the Bronze layer is merged, conformed and cleansed to standardize entities and relationships.
-- 
+
 - **Gold Layer**: Data in this layer is typically organized into consumption-ready department-specific marts for BI/reporting purposes and uses de-normalized, read-optimized data models (i.e. Inmon, Kimball).
   <p align="center">
     <img src="https://github.com/mpriya19/assets/Gold Layer ERD.jpg">

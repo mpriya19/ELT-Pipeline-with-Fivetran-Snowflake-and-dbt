@@ -33,8 +33,3 @@ All transformations are implemented in SQL using dbt, and the data warehouse is 
 ## Conclusion
 
 This project showcases a practical application of cloud-native tools to develop robust and scalable analytics workflows for modern data teams.
-
-## Contact
-
-- **Linkedin**: [https://www.linkedin.com/in/albertodemiguel/](https://www.linkedin.com/in/albertodemiguel/)
-- **Email**: [ademiguellechuga@gmail.com](ademiguellechuga@gmail.com)

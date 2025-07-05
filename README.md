@@ -20,7 +20,7 @@ Data is logically organized in three different stages:
   
 - **Silver Layer**: This is where the data from the Bronze layer is merged, conformed and cleansed to standardize entities and relationships.
 
-- **Gold Layer**: Data in this layer is typically organized into consumption-ready department-specific marts for BI/reporting purposes and uses de-normalized, read-optimized data models (i.e. Inmon, Kimball).
+- **Gold Layer**: Data in this layer is typically organized into consumption-ready department-specific marts for BI/reporting purposes and uses de-normalized, dimensional data models (i.e. Inmon, Kimball).
   <p align="center">
     <img src="https://raw.githubusercontent.com/mpriya19/ELT-Pipeline-with-Fivetran-Snowflake-and-dbt/main/assets/Gold%20Layer%20ERD.jpg">
   </p>

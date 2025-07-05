@@ -15,14 +15,14 @@ As visible in the diagram below, I followed an ELT (Extract, Load, Transform) ap
 Data is logically organized in three different stages:
 - **Bronze Layer**: Contains raw data. The table structures in this layer corresponds to the source system table structures.
   <p align="center">
-    <img src="https://github.com/mpriya19/assets/Broze Layer ERD.jpg">
+    <img src="https://raw.githubusercontent.com/mpriya19/ELT-Pipeline-with-Fivetran-Snowflake-and-dbt/main/assets/Broze%20Layer%20ERD.jpg">
   </p>
   
 - **Silver Layer**: This is where the data from the Bronze layer is merged, conformed and cleansed to standardize entities and relationships.
 
 - **Gold Layer**: Data in this layer is typically organized into consumption-ready department-specific marts for BI/reporting purposes and uses de-normalized, read-optimized data models (i.e. Inmon, Kimball).
   <p align="center">
-    <img src="https://github.com/mpriya19/assets/Gold Layer ERD.jpg">
+    <img src="https://raw.githubusercontent.com/mpriya19/ELT-Pipeline-with-Fivetran-Snowflake-and-dbt/main/assets/Gold%20Layer%20ERD.jpg">
   </p>
 
 The goal of such design pattern is to incrementally and progressively improve the structure and quality of data as it flows through each layer of the architecture.

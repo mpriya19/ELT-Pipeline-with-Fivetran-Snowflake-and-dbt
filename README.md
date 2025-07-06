@@ -26,14 +26,7 @@ Data is logically organized in three different stages:
 The goal of such design pattern is to incrementally and progressively improve the structure and quality of data as it flows through each layer of the architecture.
 
 ## Key Skills & Tools
-![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=postgresql&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-56B9EB?style=for-the-badge&logo=snowflake&logoColor=white)
-![dbt](https://img.shields.io/badge/dbt-FE752F?style=for-the-badge&logo=dbt&logoColor=white)
-![Medallion Architecture](https://img.shields.io/badge/Medallion%20Architecture-292929?style=for-the-badge)
-![Microsoft SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Fivetran](https://img.shields.io/badge/Fivetran-2176FF?style=for-the-badge&logo=fivetran&logoColor=white)
-![Dimensional Modeling](https://img.shields.io/badge/Dimensional%20Modeling-006400?style=for-the-badge)  
-![SCD Type 1/2/4](https://img.shields.io/badge/SCD%20Type%201%2F2%2F4-008B8B?style=for-the-badge)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=postgresql&logoColor=white)  ![Snowflake](https://img.shields.io/badge/Snowflake-56B9EB?style=for-the-badge&logo=snowflake&logoColor=white)  ![dbt](https://img.shields.io/badge/dbt-FE752F?style=for-the-badge&logo=dbt&logoColor=white)  ![Medallion Architecture](https://img.shields.io/badge/Medallion%20Architecture-292929?style=for-the-badge)  ![Microsoft SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)  ![Fivetran](https://img.shields.io/badge/Fivetran-2176FF?style=for-the-badge&logo=fivetran&logoColor=white)  ![Dimensional Modeling](https://img.shields.io/badge/Dimensional%20Modeling-006400?style=for-the-badge)  ![SCD Type 1/2/4](https://img.shields.io/badge/SCD%20Type%201%2F2%2F4-008B8B?style=for-the-badge)
 
 ## Conclusion
 This project showcases a practical application of cloud-native tools to develop modular, scalable analytics workflows.

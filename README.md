@@ -1,5 +1,4 @@
 # ELT Pipeline using Fivetran, Snowflake and dbt
-
 This project implements an end-to-end ELT pipeline for e-commerce data using Fivetran, Snowflake and dbt.
 
 Raw transactional data from Microsoft SQL Server is ingested into Snowflake using Fivetran, then transformed into analytics-ready models using dbt following the Medallion Architecture.
@@ -11,7 +10,6 @@ As visible in the diagram below, I followed an ELT (Extract, Load, Transform) ap
 </p>
 
 ## Medallion Architecture
-
 Data is logically organized in three different stages:
 - **Bronze Layer**: Contains raw data. The table structures in this layer corresponds to the source system table structures.
   <p align="center">
@@ -30,6 +28,8 @@ The goal of such design pattern is to incrementally and progressively improve th
 Key transformation features include Type 1, Type 2 and Type 4 Slowly Changing Dimensions (SCDs), and dbt tests to ensure data quality.
 All transformations are implemented in SQL using dbt, and the data warehouse is hosted on Snowflake.
 
-## Conclusion
+## Key Skills
+Microsoft SQL Server, Fivetran, Snowflake, dbt, Medallion Architecture, Dimensional Modeling, Slowly Changing Dimensions (SCDs).
 
+## Conclusion
 This project showcases a practical application of cloud-native tools to develop modular, scalable analytics workflows.

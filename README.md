@@ -25,11 +25,14 @@ Data is logically organized in three different stages:
 
 The goal of such design pattern is to incrementally and progressively improve the structure and quality of data as it flows through each layer of the architecture.
 
-Key transformation features include Type 1, Type 2 and Type 4 Slowly Changing Dimensions (SCDs), and dbt tests to ensure data quality.
-All transformations are implemented in SQL using dbt, and the data warehouse is hosted on Snowflake.
-
 ## Key Skills
-Microsoft SQL Server, Fivetran, Snowflake, dbt, Medallion Architecture, Dimensional Modeling, Slowly Changing Dimensions (SCDs).
+- Microsoft SQL Server
+- Fivetran
+- Snowflake
+- dbt
+- Medallion Architecture
+- Dimensional Modeling
+- Slowly Changing Dimensions (SCDs)
 
 ## Conclusion
 This project showcases a practical application of cloud-native tools to develop modular, scalable analytics workflows.

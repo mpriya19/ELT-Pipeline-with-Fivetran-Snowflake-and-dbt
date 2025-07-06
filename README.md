@@ -7,7 +7,7 @@ Raw transactional data from Microsoft SQL Server is ingested into Snowflake usin
 As visible in the diagram below, I followed an ELT (Extract, Load, Transform) approach, whereby data is first extracted and directly loaded into Snowflake DWH prior to its transformation with dbt.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mpriya19/ELT-Pipeline-with-Fivetran-Snowflake-and-dbt/main/assets/Architecture%20Diagram.png">
+  <img src="https://raw.githubusercontent.com/mpriya19/ELT-Pipeline-with-Fivetran-Snowflake-and-dbt/main/assets/Architecture.png">
 </p>
 
 ## Medallion Architecture
